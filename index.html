@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Busca Cep</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <script src="./index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <header>
+            <div class="container">
+                <h1>Busca CEP</h1>
+            </div>
+        </header>
+        <div class="content">
+            <form action="submit">
+                <h2>Digite suas informações para descobrir seu CEP</h2> 
+                <h4>Estado</h4>
+                <select name="state" id="state">
+                    <option value="SP">São Paulo</option>
+                    <option value="PR">Parana</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goiania</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="BA">Bahia</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                </select>
+                <h4>Cidade</h4> 
+                <input type="text" id="city"  placeholder="Digite a cidade" minlength="3" >
+                <h4>Logradouro</h4>
+                <input type="text" id="streetName"  placeholder="Digite a rua" minlength="3">
+                <div class="buttons">
+                    <button type="button" onclick="getCep()" >Procurar</button>
+                    <button type="button" onclick="resetTable()" >Apagar dados</button>
+                </div>
+            </form>
+
+            <table>
+                <thead>
+                    
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>        
+    </body>
+</html>
