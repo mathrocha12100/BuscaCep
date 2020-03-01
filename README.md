@@ -2,8 +2,7 @@
 
 # `Resumo`
 
-Aplicação web desenvolvida como trabalho de aula usando html, css, javascript e jquerry.
-Básicamente uma aplicação para encontrar seu CEP utilizando seu endereço e cidade
+Aplicação web para encontrar seu CEP utilizando seu endereço e cidade
 
 # `Resultado`
 
@@ -14,3 +13,7 @@ Básicamente uma aplicação para encontrar seu CEP utilizando seu endereço e c
 ## Tabela de resultados
 
 ![](result/result2)
+
+## Em Pratica
+
+![](result/buscaCep.gif)
