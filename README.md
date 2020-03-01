@@ -2,7 +2,9 @@
 
 # `Resumo`
 
-Aplicação web para encontrar seu CEP utilizando seu endereço e cidade
+Aplicação web desenvolvida como trabalho de aula usando html, css, javascript,jquery e a api do ViaCep.
+Site para encontrar seu CEP utilizando seu estado, cidade e endereço.
+
 
 # `Resultado`
 
